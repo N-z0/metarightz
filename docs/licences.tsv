@@ -1,0 +1,15 @@
+#File	#date	#Source	#Software	#Creator	#Contributors	#Owner	#Rights	#RightsURL	#ContactURL
+*	2021-04-24						Rights specified by the local license file	license.md	syslog@laposte.net
+docs/contents/logo/logo.svg	2019		Inkscape	N-zo			CC BY-ND 4.0	http://creativecommons.org/licenses/by-nd/4.0/	syslog@laposte.net
+src/app.py	2022-05-01		Kate	N-zo			public domain		syslog@laposte.net
+src/main.py	2022-05-01		Kate	N-zo			public domain		syslog@laposte.net
+src/metadata.py	2022-06-22		Kate	N-zo			public domain		syslog@laposte.net
+src/parsers/meta_html.py	2022-06-22		Kate	N-zo			public domain		syslog@laposte.net
+src/parsers/meta_img.py	2022-06-22		Kate	N-zo			public domain		syslog@laposte.net
+src/parsers/meta_license.py	2022-06-22		Kate	N-zo			public domain		syslog@laposte.net
+src/parsers/meta_others.py	2022-06-22		Kate	N-zo			public domain		syslog@laposte.net
+src/parsers/meta_py.py	2022-06-22		Kate	N-zo			public domain		syslog@laposte.net
+src/starter.py	2016-02-25		Kate	N-zo			public domain		syslog@laposte.net
+src/writers/write_deb.py	2016-02-25		Kate	N-zo			public domain		syslog@laposte.net
+src/writers/write_tsv.py	2022-06-21		Kate	N-zo			public domain		syslog@laposte.net
+tools/compile-tags.py	2022-06-22		Kate	N-zo			public domain		syslog@laposte.net
