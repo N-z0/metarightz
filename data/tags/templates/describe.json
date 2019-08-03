@@ -1,0 +1,74 @@
+[{
+	"IPTC:DateCreated": "YYYY:MM:DD",
+	"XMP-iptcExt:ArtworkDateCreated": "YYYY:MM:DD",
+	"XMP-tiff:DateTime": "YYYY:MM:DD",
+	"PNG:CreationTime": "YYYY:MM:DD",
+	"XMP-dc:Date": "YYYY:MM:DD",
+	"EXIF:CreateDate": "YYYY:MM:DD",
+	"XMP:WorkDate": "YYYY:MM:DD",
+	"Vorbis:Date": "YYYY:MM:DD",
+	"XMP-iptcExt:CopyrightYear": "YYYY:MM:DD",
+	"XMP-xmp:CreateDate": "YYYY:MM:DD",
+
+	"EXIF:ImageUniqueID": "ID",
+	"XMP-dc:Identifier": "ID",
+	"XMP:WorkIdentifier": "ID",
+
+	"XMP-dc:Source": "SOURCE",
+	"IPTC:Source": "SOURCE",
+	"PNG:Source": "SOURCE",
+	"XMP:WorkSource": "SOURCE",
+	"XMP-iptcExt:ArtworkSource": "SOURCE",
+
+	"XMP-tiff:Software": "SOFTWARE",
+	"EXIF:Software": "SOFTWARE",
+	"PNG:Software": "SOFTWARE",
+	"Vorbis:Encodedby": "SOFTWARE",
+	"XMP-xmp:CreatorTool": "SOFTWARE",
+
+	"XMP-dc:Title": "TITLE",
+	"PNG:Title": "TITLE",
+	"XMP:WorkTitle": "TITLE",
+	"XMP-iptcExt:ArtworkTitle": "TITLE",
+	"Vorbis:Title": "TITLE",
+
+	"XMP-iptcExt:AdditionalModelInformation": "SUBJECT",
+	"XMP-dc:Subject": "SUBJECT",
+	"XMP:WorkSubject": "SUBJECT",
+
+	"XMP-dc:Description": "DESCRIPTION",
+	"XMP-tiff:ImageDescription": "DESCRIPTION",
+	"EXIF:ImageDescription": "DESCRIPTION",
+	"PNG:Description": "DESCRIPTION",
+	"XMP:WorkDescription": "DESCRIPTION",
+	"Vorbis:Description": "DESCRIPTION",
+	"XMP-iptcExt:ArtworkContentDescription": "DESCRIPTION",
+	"IPTC:DocumentNotes": "DESCRIPTION",
+
+	"File:Comment": "COMMENT",
+	"PNG:Comment": "COMMENT",
+	"XMP-exif:UserComment": "COMMENT",
+	"Vorbis:Comment": "COMMENT",
+
+	"XMP-iptcExt:ArtworkContributionDescription": "HISTORY",
+	"IPTC:DocumentHistory": "HISTORY",
+
+	"XMP-dc:Coverage": "COVERAGE",
+	"XMP:WorkCoverage": "COVERAGE",
+
+	"IPTC:keywords": "KEYWORDS",
+
+	"XMP-dc:Language": "LANG",
+	"XMP:WorkLanguage": "LANG",
+
+	"XMP-dc:Relation": "RELATION",
+	"XMP:WorkRelation": "RELATION",
+
+	"Vorbis:Genre": "GENRE",
+
+	"Vorbis:Album": "ALBUM",
+
+	"PNG:Collection": "COLLECTION",
+
+	"PNG:PNGWarning": "WARNING"
+}]

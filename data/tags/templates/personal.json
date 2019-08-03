@@ -1,0 +1,38 @@
+[{
+	"XMP:WorkRightsAgentTitle": "OWNER",
+	"XMP-cc:AttributionName": "OWNER",
+	"EXIF:OwnerName": "OWNER",
+	"XMP-iptcExt:ArtworkCopyrightOwnerName": "OWNER",
+	"XMP-iptcExt:ArtworkLicensorName": "OWNER",
+	"XMP-xmpRights:Owner": "OWNER",
+
+	"XMP:WorkCreatorAgentTitle": "CREATOR",
+	"XMP-iptcExt:CreatorName": "CREATOR",
+	"PNG:Author": "CREATOR",
+	"XMP-dc:Creator": "CREATOR",
+	"XMP-iptcExt:ArtworkCreator": "CREATOR",
+	"IPTC:Credit": "CREATOR",
+	"XMP-tiff:Artist": "CREATOR",
+	"EXIF:Artist": "CREATOR",
+	"Vorbis:Artist": "CREATOR",
+
+	"XMP:WorkContributorAgentTitle": "CONTRIBUTORS",
+	"XMP-iptcExt:ContributorName": "CONTRIBUTORS",
+	"XMP-dc:Contributor": "CONTRIBUTORS",
+
+	"XMP-cc:AttributionURL": "CONTACT_URL",
+	"IPTC:Contact": "CONTACT_URL",
+	"Vorbis:Contact": "CONTACT_URL",
+
+	"Vorbis:Composer": "COMPOSER",
+
+	"Vorbis:Actor": "ACTOR",
+
+	"Vorbis:Organization": "ORGANIZATION",
+
+	"Vorbis:Producer": "PRODUCER",
+
+	"XMP:WorkPublisherAgentTitle": "PUBLISHER",
+
+	"XMP-dc:Publisher": "PUBLISHER"
+}]

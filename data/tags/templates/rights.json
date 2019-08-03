@@ -1,0 +1,27 @@
+[{
+	"IPTC:CopyrightNotice": "RIGHTS",
+	"EXIF:Copyright": "RIGHTS",
+
+	"XMP-dc:Rights": "RIGHTS",
+	"XMP-iptcExt:ArtworkCopyrightNotice": "RIGHTS",
+
+	"XMP-xmpRights:UsageTerms": "RIGHTS",
+	"XMP-xmpRights:WebStatement": "RIGHTS_URL",
+	"XMP-xmpRights:Marked": "False if Public Domain, True otherwise.",
+	"XMP-xmpRights:Certificate": "CERTIFICATE",
+	
+	"XMP-tiff:Copyright": "RIGHTS",
+
+	"Vorbis:Copyright": "RIGHTS",
+	"Vorbis:License": "RIGHTS",
+
+	"PNG:Disclaimer": "RIGHTS",
+	"PNG:Copyright": "RIGHTS",
+
+	"XMP:WorkLicense": "RIGHTS",
+	"XMP-cc:License": "RIGHTS_URL",
+	"XMP:About": "RIGHTS_URL",
+	"XMP:LicensePermits": "RIGHTS_URL#Reproduction",
+	"XMP:LicenseRequires": "RIGHTS_URL#ShareAlike"
+}]
+

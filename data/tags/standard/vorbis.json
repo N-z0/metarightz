@@ -1,0 +1,18 @@
+[{
+	"Vorbis:Date": "YYYY:MM:DD",
+	"Vorbis:Copyright": "RIGHTS",
+	"Vorbis:License": "RIGHTS",
+	"Vorbis:Contact": "CONTACT_URL",
+	"Vorbis:Producer": "PRODUCER",
+	"Vorbis:Composer": "COMPOSER",
+	"Vorbis:Artist": "CREATOR",
+	"Vorbis:Actor": "ACTOR",
+	"Vorbis:Title": "TITLE",
+	"Vorbis:Genre": "GENRE",
+	"Vorbis:Album": "ALBUM",
+	"Vorbis:Description": "DESCRIPTION",
+	"Vorbis:Comment": "COMMENT",
+	"Vorbis:Encodedby": "SOFTWARE",
+	"Vorbis:Organization": "ORGANIZATION"
+}]
+

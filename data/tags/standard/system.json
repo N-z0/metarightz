@@ -1,0 +1,11 @@
+[{
+	"File:FilePath": "PATHNAME",
+	"File:FileName": "NAME",
+	"File:Directory": "PATH",
+	"File:FileSize": "SIZE",
+	"File:FileType": "TYPE",
+	"File:FileTypeExtension": "EXT",
+	"File:MIMEType": "MIME",
+	"File:Comment": "COMMENT"
+}]
+
