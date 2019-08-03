@@ -1,70 +1,90 @@
 ![Logo icon](contents/logo/logo.svg "Software-name logo")
-# Software-name
-**fancy slogan / ex: jQuery — the new JavaScript Wave**
-
-
-## 🚩 Intro
-A short summary presentation of what this software is.  
-*(if the name is an acronym or abbreviation, give full meaning)*  
+# MetaDataTool
+**Scripts and data for get and set metadata**
 
 
 ## 📋 Glossary
- - Computer  
-	Device working on binaries information.
- - Fire  
-	Ignited gas.
- - Robots  
-	Autonomous machines,made to be slaves of humans.
+*metadata schema types:*
+
+ - IPTC  
+	Often called "legacy" IPTC.
+	
+ - Exif  
+	These metadata are often created by cameras and other capture devices.
+	Including technical information about photo capture method, 
+	such as exposure settings, capture time, GPS location information and camera model.
+	Older than XMP, not supporting Unicode and not supported by JPEG 2000 or PNG file format.
+	
+ - XMP  
+	The most recent,made by Adobe but opensource,
+	Supporting Unicode and unlimited metadata..
+	
+ - Dublin Core  
+	Metadata schema use by many image libraries and a wide variety of industries
+	for the store of image information.
+	Several of its fields are inter operable with IPTC formats.
 
 
 ## ℹ️ Description
- - the goal of this project
- - Who can be interested by this  project
- - what benefit from using it
- - how it work
+The goal of this project is to get and set metadata of the mostly used pictures files,
+and for some others files format as well. 
+And the option to *fill a cvs file with those collected data*
 
+There is many existing software for set and get metadata,
+but not easy to find one with large wide metadata scope*(all metadata types)* 
+and who can make *csv/tsv* output reports.
+Thats the big benefit to using it .
 
-## 📝 Note
- - The software block and freeze when all keys are pressed at same time.  
-	Do Not press all the keyboard keys at same time.
- - If the computer shutdown while using this Software  
-	All the unsaved data will be lost.
- - Do not use a hammer for trying to fix any bugs  
-	It leads to software destruction and may damage your device.
+From the metadata and the license.md files included in your project.
+A copyrights reports can be generated.
+
+Currently this software work mainly on [exiftool](https://www.sno.phy.queensu.ca/~phil/exiftool)
 
 
 ## 👉 References:
- - [maxtof photo bank](http://www.maxtof.com)  
-	Website full of interesting photos and text files for related textures images.
- - Cycles and Quasi-Cycles Glosses   
-	Evaluation of  semi-structured system for fully automatics. J. Muresan. Informatics Association 2001, pp. 324–328.
- - [WW2 database](http://www.ww2-ontopia.net)  
-	Pictures and video of the real vehicles.
+ - [iptc-standard](https://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata)  
+	Photo Metadadata Standard 2017.1, including:
+	 - IPTC Core Metadata Schema 1.2
+	 - IPTC Extension Metadata Schema 1.4
+ - [MWG specification](http://www.metadataworkinggroup.org/ )  
+	The Metadata Working Group (MWG) 
+	recommends techniques to allow certain overlapping EXIF, IPTC and XMP tags
+	To be reconciled when reading, and synchronized when writing.
+ - Creative Commons official recommendation  
+	Concerning XMP metadata information
+	is to use identical content for the dc:rights and xmpRights:UsageTerms fields.
+	Also xmpRights:Marked should be set to False if Public Domain, True otherwise.
+ - PNG metadata  
+	The iTXt, tEXt, and zTXt chunks (text chunks) 
+	are used for conveying textual information associated with the image. 
+	They are the places we can find all metadata of PNG file.
+	Each of the text chunks contains as its first field a keyword that indicates the type of information represented by the text string. 
+	Other keywords may be invented for other purposes.
+	The keyword must be at least one character and less than 80 characters long.
+	According to XMP Specification,
+	an XMP packet is embedded in a PNG graphic file by adding a chunk of type iTXt 
+	with the keyword 'XML:com.adobe.xmp'.
+	But there are no standard for Exif, IPTC data. In Exiv2, 
+	when Exif, IPTC are added, they are stored in zTXt text chunks and save as ASCII.
+
 
 ## 👀 See also:
- - [Supermax editor](http://www.fenix-sw.com/sm-ed.html)  
-	This software is efficient for editing the files of this project..
- - [countries-db](http://www.countries.com/db)  
-	Unicode countries database related to the countries flags.
- - [pc-lock](http://www.secu.com)  
-	An optional device for improving the security with this software.
+ - [exiftool](https://www.sno.phy.queensu.ca/~phil/exiftool)  
+	ExifTool is a platform-independent Perl library plus a command-line application
+	for reading, writing and editing meta information in a wide variety of files.
+ - [pyexiftool](https://github.com/smarnach/pyexiftool)  
+	PyExifTool is a Python library
+	to communicate with an instance of Phil Harvey's ExifTool command-line application.
+ - [exiv2](https://www.exiv2.org/index.html)  
+	C++ metadata library and tools.
+ - [pyexiv2](https://pypi.org/project/pyexiv2/)  
+	It runs on C++ API of exiv2. 
+	for read and modify metadata of digital image, including EXIF, IPTC, XMP. It 
 
 
 ## 📜 History
- - Origin:
-	- The projet was initiate by [Mark Borello](mailto:mbo@msn.com) for [Frikaia.com](https://www.frikaia.com) but the main creators and author is [Nizi Maza](https://github.com/nizi) .
+ - Origin:  
+	Project initiate by [Nz0](https://github.com/N-z0) .
 
- - Development:
-	- In 2010  [Damien ford](mailto:damfo@gmail.com) continued the project with the help of [Tim Devens](https://github.com/timdev)  for the management.
-	- The project moved on [Gitswitch](https://gitswitch.com) last summer
-	- And now  [Microhard](https://www.microhard.com) is the official publisher
-
-
-## ❤️ Special thanks
- - [Wikipedia](https://www.wikipedia.org)  
-	Gave us so much knowledge...
- - The R.S.A.  
-	For providing infrastructure material and active solidarity.
- - Janice Bastos  
-	So much grateful for all the love given.
-
+ - Development:  
+	- Hosted  on [GitHub](https://github.com/N-z0/metadatatool)
