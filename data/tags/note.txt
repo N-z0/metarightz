@@ -1,0 +1,13 @@
+
+the *standard* directory contains a file for each established metadata standard norms,
+ (the value of each tag must be edited before being used)
+
+the *licenses* directory contains files useful for settings all metadata for a corresponding copyright license
+ (no need to edit the value of each tags, they can be applied directly)
+ 
+in *useful* directory, files are regroupings the most commonly used metadata tags.
+ (the value of each tag must be edited before being used)
+ 
+ 
+ all-tags.txt files are created by the compilation tool, they contain all the tags found in the folder.
+ 
