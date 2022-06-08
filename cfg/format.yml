@@ -1,0 +1,145 @@
+### program settings
+###
+### comment lines with #
+### tab characters are strictly prohibited for indentation
+
+
+
+INPUT:
+   
+ - name: directory
+   category: valu
+   shortflag: d
+   longflag: directory
+   type: str
+   qantum: 1
+   default: '.'
+   help: "path of input directory"
+   symbols: PATH
+
+ - name: licenses
+   category: valu
+   shortflag: l
+   longflag: licenses
+   type: str
+   qantum: 1
+   default: 'license.md'
+   help: "name of licenses files"
+   symbols: STRING
+
+ - name: exclude
+   category: valu
+   shortflag: x
+   longflag: exclude
+   type: str
+   qantum: 1
+   default: '.gitignore/__init__.py/__pycache__/.github/.git'
+   help: "exclude files and directories names"
+   symbols: STRING
+
+
+DEFAULT:
+   
+ - name: owner
+   category: valu
+   shortflag: do
+   longflag: owner
+   type: str
+   qantum: 1
+   default: 'unknow'
+   help: "default owner name"
+   symbols: STRING
+   
+ - name: contact
+   category: valu
+   shortflag: dc
+   longflag: contact
+   type: str
+   qantum: 1
+   default: 'unknow'
+   help: "default contact address"
+   symbols: STRING
+
+
+OUTPUT:
+   
+ - name: output
+   category: valu
+   shortflag: o
+   longflag: output
+   type: str
+   qantum: 1
+   default: './rights'
+   help: "where to write output file"
+   symbols: PATH
+   
+ - name: print
+   category: positiv_flag
+   shortflag: p
+   longflag: print
+   help: "print output instead writing file"
+   
+ - name: format
+   category: choice
+   shortflag: f
+   longflag: format
+   type: str
+   qantum: 1
+   choices: ['tsv','deb']
+   default: 'tsv'
+   help: "output file format choice"
+   
+ - name: timestamp
+   category: positiv_flag
+   shortflag: t
+   longflag: timestamp
+   help: "use file system date and time"
+   
+ - name: all
+   category: positiv_flag
+   shortflag: a
+   longflag: all
+   help: "include all files"
+
+
+SYSTEM:
+   
+ - name: local
+   category: positiv_flag
+   shortflag: L
+   longflag: local
+   help: "will not create files outside program directory"
+
+
+VERBOSITY:
+   
+ - name: logfile
+   category: choice
+   shortflag: fv
+   longflag: logfile_verbosity
+   type: int
+   qantum: 1
+   choices: [0,1,2,3,4,5]
+   default: 0
+   help: "output verbosity level"
+   
+ - name: terminal
+   category: choice
+   shortflag: tv
+   longflag: terminal_verbosity
+   type: int
+   qantum: 1
+   choices: [0,1,2,3,4,5]
+   default: 0
+   help: "output verbosity level"
+   
+ - name: syslog
+   category: choice
+   shortflag: sv
+   longflag: syslog_verbosity
+   type: int
+   qantum: 1
+   choices: [0,1,2,3,4,5]
+   default: 0
+   help: "output verbosity level"
+
