@@ -1,0 +1,13 @@
+this program was designed for Linux operating system.[{} detected]
+logs systems are setup
+starting
+ending
+
+getting list of files
+numbers of files filtered:{}
+numbers of license files found:{}
+numbers of metadata files found:{}
+printing output on terminal
+print on terminal the metadata of files
+writing tsv output in file: {}
+writing deb output in file: {}
