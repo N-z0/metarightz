@@ -1,6 +1,6 @@
 ![Logo icon](contents/logo/logo.svg "Software-name logo")
-# MetaDataTool
-**Scripts and data for get and set metadata**
+# MetaRightz
+**get from files copyrights**
 
 
 ## 📋 Glossary
@@ -26,19 +26,16 @@
 
 
 ## ℹ️ Description
-The goal of this project is to get and set metadata of the mostly used pictures files,
-and for some others files format as well. 
-And the option to *fill a cvs file with those collected data*
+The goal of this project is to get from files the related license and copyrights metadata,
+With the the option to write those collected data into a *cvs* or *deb* file.
 
 There is many existing software for set and get metadata,
 but not easy to find one with large wide metadata scope*(all metadata types)* 
 and who can make *csv/tsv* output reports.
-Thats the big benefit to using it .
 
-From the metadata and the license.md files included in your project.
-A copyrights reports can be generated.
+Also, it include metadata from dedicated license.md files found in your project.
 
-Currently this software work mainly on [exiftool](https://www.sno.phy.queensu.ca/~phil/exiftool)
+Currently this software require [exiftool](https://www.sno.phy.queensu.ca/~phil/exiftool)
 
 
 ## 👉 References:
@@ -87,4 +84,4 @@ Currently this software work mainly on [exiftool](https://www.sno.phy.queensu.ca
 	Project initiate by [Nz0](https://github.com/N-z0) .
 
  - Development:  
-	- Hosted  on [GitHub](https://github.com/N-z0/metadatatool)
+	- Hosted  on [GitHub](https://github.com/N-z0/metarightz.git)
