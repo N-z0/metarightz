@@ -43,9 +43,9 @@ def get_metadata(pathfile):
 		#print(pathfile)
 		tree = ast.parse(pf.read())
 		for node in tree.body :
-			if isinstance(node, ast.Assign) :
+			if isinstance(node, ast.Assign) and hasattr(node.targets[0],'id'):
 				#print(ast.dump(node))
-				#print(str(node.targets[0]))
+				#print(dir(node.targets[0]))
 				name = node.targets[0].id
 				if name in DOCSTRINGS :
 					valu = node.value
