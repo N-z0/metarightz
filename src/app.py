@@ -103,7 +103,7 @@ class Application():
 		
 		### output result
 		if self.output_print :
-			logger.log_info(18)
+			logger.log_info(10)
 			self.print_output(md)
 		### or write the output in file
 		elif self.output_format=="tsv" :
